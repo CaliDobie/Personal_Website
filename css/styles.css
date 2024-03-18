@@ -1,0 +1,152 @@
+body {
+    font-family: Arial Black, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.body {
+    padding:20px;
+    margin-top:30px;
+}
+
+.topnav {
+    font-family: Impact, sans-serif;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+    float: right;
+}
+
+.tab {
+    margin-left: 40px;
+}
+
+.tab-center {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.block {
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 48px;
+    margin: auto auto 10px;
+}
+
+.block-default {
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+}
+
+.block-about-me {
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+}
+
+.block-ucr {
+    display: inline-table; /*allows blocks to be horizontally aligned*/
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+}
+
+.block-msjc {
+    display: inline-table; /*allows blocks to be horizontally aligned*/
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+}
+
+.block-ucr-courses {
+    display: inline-table; /*allows blocks to be horizontally aligned*/
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+}
+
+.block-msjc-courses {
+    display: inline-table; /*allows blocks to be horizontally aligned*/
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+}
+
+.block-github {
+    display: inline-table; /*allows blocks to be horizontally aligned*/
+    width: 300px; /*overwrites block width*/
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+    text-decoration: none;
+}
+
+.block-github:hover {
+    background-color: black;
+    border: 8px solid #333333;
+    color: white;
+}
+
+.block-projects {
+    background-color: #333333;
+    border: 8px solid dimgrey;
+    color: white;
+    text-decoration: none;
+}
+
+.block-projects a {
+    color: white;
+    text-decoration: none;
+}
+
+.block-projects a:hover {
+    color: black;
+    font-size: 106%;
+}
